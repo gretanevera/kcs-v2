@@ -1,0 +1,17 @@
+/* abcd turi buti 200px aukscio ir plocio, zaliu finu, 2px plonio remeliu is visu krastu */
+body, span, div{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.car div, .car span{
+width: 200px;
+height: 200px;
+background-color: green;
+}
+
+.car span{
+    display: inline-block;
+    
+}
