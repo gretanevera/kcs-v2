@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+
+    <body>
+
+        <form>
+            <fieldset>
+                <Legend>Jūsų informacija</Legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Vardas:
+                            </label>
+                        </td>
+                        <td><input name="Name" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="surname">Pavardė:
+                            </label>
+                        </td>
+                        <td>
+                            <input name="surname" id="surname"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+
+
+        <form>
+            <fieldset>
+                <Legend>Klausimai</Legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="howTheyKnowUs">Kaip sužinojote apie mus?</label>
+                      
+                            <select name="howTheyKnowUs">
+                                <option value>Pasirinkite
+                                </option>
+                                <option value=" Google ">Google</option>
+                                <option value="Online reklama">Reklama internete</option>
+                                <option value="Rekomendacijos">Rekomendacijos</option>
+
+                            </select>
+
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            Ar apsilankysite vėl?
+                            <br>
+                            <label for="yes">Taip</label>
+                            <input type="radio" name="yea">
+                            <label for="no">Ne</label>
+                            <input type="radio" name="no">
+                            <label for="maybe">Galbūt</label>
+                            <input type="radio" name="maybe">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            Ką manote apie kursą?
+                            <br>
+                            <textarea cols="80" rows="5" placeholder="Rašykite viską ką galvojate"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            Pažymėkite programavimo kalbas su kuriomis este susipažinę:
+                            <br>
+                            <input type="checkbox" name="html">
+                            <label for="html">HTML</label>
+
+                            <input type="checkbox" name="html">
+                            <label for="JavaScript">JavaScript</label>
+
+                            <input type="checkbox" name="cSharp">
+                            <label for="cSharp">C#</label>
+                            <br>
+                            <input type="checkbox" name="php">
+                            <label for="php">PHP</label>
+
+                            <input type="checkbox" name="css">
+                            <label for="css">CSS</label>
+
+                            <input type="checkbox" name="python">
+                            <label for="python">Python</label>
+                            <br>
+                            <input type="checkbox" name="ruby">
+                            <label for="ruby">Ruby</label>
+
+                            <input type="checkbox" name="java">
+                            <label for="java">JAVA</label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <input type="submit" value="Siųsti">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+
+</html>
