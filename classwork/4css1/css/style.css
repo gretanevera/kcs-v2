@@ -1,0 +1,60 @@
+/*Main styles*/
+
+/*Reset styles*/
+body {
+    font-size: 16px;
+    font
+}
+a {
+    text-decoration: none;
+}
+
+/*Custom styles*/
+
+p{
+    color: blue!important;
+/*           Negalima taip daryti     */
+}
+#mainTxt{
+    font-size: 50px;
+}
+.euro{
+    color: orangered;
+}
+div div.border-big{
+    border: 2px solid black;
+}
+#price{
+    text-decoration: underline;
+                
+}
+a[target="_blank"]{
+    background: yellow; 
+}
+a:hover{
+    color: grey;
+    background: #f7ede9;
+    
+}
+div span:first-child {
+    color: green;
+
+}
+.weird{
+    font-family: 'Dancing Script', cursive;
+}
+
+.last-minute-offer {
+    font-weight: bold;
+}
+
+.product-page.button{
+    text-transform: uppercase;
+}
+
+.product-page.button.buy{
+    letter-spacing: 5px;
+}
+
+
+
