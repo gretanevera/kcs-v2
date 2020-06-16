@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>12grid page</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            main#content {
+                display: flex;
+            }
+            main#content > section, main#content > aside  {
+                    border: crimson solid 1px;
+
+                }
+
+            aside.additional-info .google-maps-wrapper span iframe {
+                width: 100%;
+                height: auto;
+                border: none;
+            }
+            /* 12 grid system from interwebs */
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+
+            [class*="col-"]{
+                float: left;
+                padding: 10px;
+            }
+
+            @media screen and (max-width: 600px) {
+                main#content {
+                    flex-direction: column;
+                }
+                main#content > section, main#content > aside  {
+                    width: 100%;
+
+                }
+            }
+
+            @media screen and (min-width: 1200px) {
+                main#content > section, main#content > aside {
+                    border: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header class="col-12" id="header">
+            headeris
+        </header>
+
+        <main class="col-12" id="content">
+            <section>
+                <summary class="col-3 images-thumbs">
+                    <h5>small images</h5>
+                </summary>
+                <article class="col-6 main-content-wrapper">
+                    <h5>Welcome</h5>
+                    <p>Welcome to our page</p>
+                </article>
+            </section>
+       
+            <aside class="col-3 additional-info">
+                <div class="google-maps-wrapper">
+                    <span>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.7759561035687!2d23.925192716571242!3d54.889301680331236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e71f30d8cd391b%3A0x1519404ea62060c7!2sKaunas%20Coding%20School%20-%20programavimo%20kursai!5e0!3m2!1sen!2slt!4v1592324775778!5m2!1sen!2slt" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </span>
+                </div>
+            </aside>
+        </main>
+        <footer class="col-12 footer-main ">
+            Footeris
+        </footer>
+    </body>
+</html>
