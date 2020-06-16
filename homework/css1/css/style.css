@@ -1,0 +1,13 @@
+h1, h2{
+    color: palevioletred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    font-style: italic;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p:last-child{
+     color: rgb(86, 111, 92);
+}

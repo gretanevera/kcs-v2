@@ -1,0 +1,49 @@
+body{
+    padding: 10px;
+    margin: 2px;
+    border: black 4px;
+    border-style: double;
+    border-radius: 3px;
+    font-family: 'Solway', serif;
+}
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin: 10px 15% 10px 15%;
+   
+}
+
+ .menu-wrapper{
+     padding: 20px;
+     /* width: 100%; */
+ }
+  ul{
+    border-top: solid black 4px;
+    border-bottom: solid black 2px;   
+     
+  }
+  li{
+      padding: 20px;
+    }
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a[href="#pagrindinis"]{
+    color: brown;
+}
+
+p{
+    text-align: center;
+    width: 80%;
+}
+img{
+max-width: 100%;
+}
+ul li {
+    display:inline;
+text-align: center;
+  }
