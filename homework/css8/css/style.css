@@ -1,0 +1,84 @@
+.head-row {
+    font-weight: bold;
+}
+
+.table, .registration {
+    display: flex;
+}
+
+.registration-form-wrapper {
+    margin: 15px;
+    width: 500px;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.name-row, .surname-row, .email-row {
+    margin: 5px;
+}
+
+.name-row div, label {
+    width: 200px;
+}
+
+.surname-row div, label {
+    width: 200px;
+}
+
+.name-row input {
+    width: 250px;
+}
+
+.surname-row input {
+    width: 250px;
+}
+
+input[type="submit"] {
+    width: 465px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.table-wrapper {
+    margin: 15px;
+    width: 500px;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+
+
+
+.row-2, .row-1, .row-0 {
+    height: 30px;
+    border-bottom: solid black 1px;
+    border-right:solid black 1px ;
+    border-left: solid black 1px;
+}
+
+.row-0 {
+    border-top: solid black 1px;
+    background-color: darkcyan;
+} 
+.name {
+    width: 50%;
+}
+.surname {
+    width: 20%;
+}
+.email{
+ width: 30%;
+}
+
+.row-1 .name{
+    border-right: solid black 1px;
+}
+.row-2 .name{
+    border-right: solid black 1px;
+}
+.row-1 .surname{
+    border-right: solid black 1px;
+}
+.row-2 .surname{
+    border-right: solid black 1px;
+}
