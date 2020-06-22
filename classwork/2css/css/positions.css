@@ -9,6 +9,6 @@
     top: 50px;
 }
 .car__rear-wheels{
-    top: 20px;
+    /* top: 20px; */
     position: absolute ;
 }
