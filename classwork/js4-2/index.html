@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arrays</title>
+    </head>
+    <body>
+        <script>
+
+            var hobbies = [[
+                    'eat', 1, 'pizza'
+                ], "sleep", 'code'];
+            console.log(hobbies.length)
+            hobbies[1] = 'sport';
+
+            var extraActivity = ['gaming', 'pet'];
+            var allActivities = hobbies.concat(extraActivity);
+
+            console.log(allActivities);
+
+            if (allActivities.indexOf('code') >= 0) {
+                console.log('thanx god you are a hacker!');
+            } else {
+                allActivities.push('coding')
+            }
+        </script>
+    </body>
+</html>

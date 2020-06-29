@@ -4,13 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Switch classes with JS</title>
+        <style>
+            .alert-message {
+                color: red;
+            }
+        </style>
     </head>
     <body>
         <p id="main-content">some demo text</p>
         <button id="change-color">
             Change paragraph color</button>
         <script>
-            
+            var chageColorButton = document.getElementById('change-color');
+            chageColorButton.addEventListener('click', changeTextColor);
+
+
+            function changeTextColor() {
+                // changeableText.style.color = 'red'
+                toggleClassName('alert-message', 'main-content');
+            }
+            function toggleClassName (className, elementIdName){
+                
+                var changeableText = document.getElementById(elementIdName);
+                if (changeableText.classList.contains(className)) {
+                    changeableText.classList.remove(className)
+                } else {
+                    changeableText.classList.add(className);
+                }
+
+
+            }
         </script>
     </body>
 </html>
